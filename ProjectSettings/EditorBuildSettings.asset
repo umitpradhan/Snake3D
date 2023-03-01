@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PreGameScene.unity
+    guid: 298b293fdf5708e44b02f5ce2e8b5497
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayerModeScene.unity
+    guid: c2dfdad09abf1bf4a9cc72adaa6fa957
+  - enabled: 1
+    path: Assets/Scenes/MultiPlayerModeScene.unity
+    guid: 228c9e8ecf5a26249be536ce69ff5acc
+  - enabled: 1
+    path: Assets/Scenes/PostGameSceneSP.unity
+    guid: 0934de4c17a139b4fba987037901b4b3
+  - enabled: 1
+    path: Assets/Scenes/PostGameScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/GameScene.unity
+    guid: b5204ac355371b146a9507a729458a12
+  m_configObjects: {}

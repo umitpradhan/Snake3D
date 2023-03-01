@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1199922696788841632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1199922696788841634}
+  - component: {fileID: 1199922696788841635}
+  - component: {fileID: 6463157932421302661}
+  - component: {fileID: 212668503}
+  m_Layer: 0
+  m_Name: ItemManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1199922696788841634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199922696788841632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.540333, y: 0.529, z: -6.674459}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1199922696788841635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199922696788841632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0697e4f1accf0d4392b9a424a832b76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foodPrefab: {fileID: 7952333824189236088, guid: e7d7a63eb2e906743a590c5c15269f4c,
+    type: 3}
+  oWallPrefab: {fileID: 7293151931479503383, guid: 420ddb05fcca8e8488c4d2787d177129,
+    type: 3}
+  spawnInterval: 3
+  platform: {fileID: 0}
+  xBounds: 2000
+  zBounds: 1200
+  minSpawnDistance: 1.5
+  maxSpawnDistance: 3
+  collidedFood: {fileID: 0}
+--- !u!114 &6463157932421302661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199922696788841632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b30a8025a47a6154c8fc72ab5c907974, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pFoodPrefab: {fileID: 1005475044207800723, guid: 89062fe674c08034c83a8530a203951a,
+    type: 3}
+  foodPrefab: {fileID: 7952333824189236088, guid: e7d7a63eb2e906743a590c5c15269f4c,
+    type: 3}
+  oWallPrefab: {fileID: 7293151931479503383, guid: 420ddb05fcca8e8488c4d2787d177129,
+    type: 3}
+  hSnakePrefab: {fileID: 1885527007566299407, guid: 0795cfb77f8af3443ba6f89dfe542a3d,
+    type: 3}
+  spawnIntervalP: 5
+  platform: {fileID: 0}
+  xBoundsPF: 2000
+  zBoundsPF: 1200
+  minSpawnDistance: 1.5
+  maxSpawnDistance: 3
+  collidedPFood: {fileID: 0}
+--- !u!114 &212668503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199922696788841632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2cee356a4b13d94a9afea52bdd9143e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pFoodPrefab: {fileID: 1005475044207800723, guid: 89062fe674c08034c83a8530a203951a,
+    type: 3}
+  foodPrefab: {fileID: 7952333824189236088, guid: e7d7a63eb2e906743a590c5c15269f4c,
+    type: 3}
+  oWallPrefab: {fileID: 7293151931479503383, guid: 420ddb05fcca8e8488c4d2787d177129,
+    type: 3}
+  spawnIntervalP: 2
+  platform: {fileID: 0}
+  xBoundsPF: 2000
+  zBoundsPF: 1200
+  minSpawnDistance: 1.5
+  maxSpawnDistance: 3
+  collidedWall: {fileID: 0}
